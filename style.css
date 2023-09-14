@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto',sans-serif;
+}
+.indice {
+    background-color: black;
+    width: auto;
+}
+.indice ul {
+    padding: 20px;
+    text-align: center;
+}
+.indice ul li {
+    display: inline-block;
+    padding-right: 25px;
+    font-weight: 900;
+}
+.indice ul li a {
+    color: white;
+    text-decoration: none;
+}
+.indice ul li a:hover {
+    color: blue;
+    text-decoration: none;
+}
+.pessoa {
+    padding: 30px;
+}
+.pessoa h1 {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.pessoa img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+.pessoa ul {
+    text-align: center;
+}
+.pessoa ul #linkedin {
+    display: inline-block;
+    padding: 10px 50px;
+    border: 2px solid blue;
+    border-radius: 500px;
+    background-color: var(--background-base,blue);
+}
+.pessoa ul #github {
+    display: inline-block;
+    padding: 10px 50px;
+    border: 2px solid black;
+    border-radius: 500px;
+    background-color: var(--background-base,black);
+}
+.pessoa ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+.descricao-pessoal {
+    border: 2px solid black;
+    border-radius: 500px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+.descricao-pessoal h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.descricao-pessoal p {
+    font-size: 17px;
+    text-align: center;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.descricao-pessoal p a {
+    color: black;
+    font-style: italic;
+}
+.descricao-pessoal p a:hover {
+    color: red;
+}
+.habilidades {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    padding: 30px;
+}
+.habilidades ul {
+    display: inline-block;
+    padding:0 50px;
+    list-style-type: none;
+    font-size: 17px;
+}
+.habilidades h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.gostos-pessoais {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    padding: 30px;
+}
+.gostos-pessoais h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.gostos-pessoais p {
+    font-size: 17px;
+}
+.gostos-pessoais ul {
+    list-style-type: none;
+    font-size: 17px;
+}
+.gostos-pessoais ul li {
+    padding: 30px 30px 0 30px;
+}
+.gostos-pessoais ul li a {
+    color: black;
+    font-style: italic;
+}
+.gostos-pessoais ul li a:hover {
+    color: red;
+}
