@@ -4,61 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Web - João Corá</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--Índice-->
-    <div style="background-color: black;
-                color: white;">
+    <div class="indice">
         <ul>
-            <li><strong><a href="#quem-sou-eu">QUEM SOU EU</a></strong></li>
-            <li><strong><a href="#descricao-pessoal">DESCRIÇÃO PESSOAL</a></strong></li>
-            <li><strong><a href="#habilidades">HABILIDADES</a></strong></li>
-            <li><strong><a href="#gostos-pessoais">GOSTOS PESSOAIS</a></strong></li>
+            <li><a href="#quem-sou-eu">QUEM SOU EU</a></li>
+            <li><a href="#descricao-pessoal">DESCRIÇÃO PESSOAL</a></li>
+            <li><a href="#habilidades">HABILIDADES</a></li>
+            <li><a href="#gostos-pessoais">GOSTOS PESSOAIS</a></li>
         </ul>
     </div>
     <!--Quem sou eu-->
-    <div>
+    <div class="pessoa">
         <h1 id="quem-sou-eu">João Vitor Gomes Corá</h1>
-        <img src="./images/Foto 2.jpg" width="300px">
+        <img src="./images/Foto 2.jpg">
         <ul>
-            <li><a href="https://www.linkedin.com/in/joaogcora/">LinkedIn</a></li>
-            <li><a href="https://github.com/joaogcora">GitHub</a></li>
+            <li id="linkedin"><a href="https://www.linkedin.com/in/joaogcora/">LinkedIn</a></li>
+            <li id="github"><a href="https://github.com/joaogcora">GitHub</a></li>
         </ul>
     </div>
     <!--Descrição Pessoal-->
-    <div>
+    <div class="descricao-pessoal">
         <h3 id="descricao-pessoal">Descrição Pessoal</h3>
         <p>
-            Olá, sou o João, tenho 22 anos, e atualmente resido na cidade de Catanduva - SP, no Brasil. <br>
-            Sou uma pessoa que preza muito pelo comprometimento e responsabilidade, enquanto busco <br>
-            manter a paciência e boas relações com colegas de trabalho, pois também acredito que o <br>
-            trabalho em equipe é de extrema importância para a entrega de bons resultados, independente <br>
-            do ramo em que eu esteja atuando. Tenho o Ensino Médio completo, 3 anos cursados em Administração <br>
-            no <a href="https://www.insper.edu.br/" target="_blank">Insper</a>, e no momento estou realizando o curso da <a href="https://www.betrybe.com/" target="_blank">Trybe</a>. No momento também sou estagiário na  <br>
+            Olá, sou o João, tenho 22 anos, e atualmente resido na cidade de Catanduva - SP, no Brasil.
+            Sou uma pessoa que preza muito pelo comprometimento e responsabilidade, enquanto busco
+            manter a paciência e boas relações com colegas de trabalho, pois também acredito que o
+            trabalho em equipe é de extrema importância para a entrega de bons resultados, independente
+            do ramo em que eu esteja atuando. Tenho o Ensino Médio completo, 3 anos cursados em Administração
+            no <a href="https://www.insper.edu.br/" target="_blank">Insper</a>, e no momento estou realizando o curso da <a href="https://www.betrybe.com/" target="_blank">Trybe</a>. No momento também sou estagiário na
             empresa <a href="https://embremac.com.br/" target="_blank">Embremac</a> e atuo na área administrativa da empresa. 
         </p>
     </div>
     <!--Habilidades-->
-    <div>
+    <div class="habilidades">
         <h3 id="habilidades">Habilidades</h3>
-        <h4>Hard Skills</h4>
-        <ol>
+        <ul>
+            <h3>Hard Skills</h3>
             <li>Microsoft Office</li>
             <li>Desenvolvimento Web</li>
             <li>Desenvolvimento de Software</li>
             <li>Análise de Dados</li>
             <li>Edição de Fotos e Vídeos</li>
-        </ol>
-        <h4>Soft Skills</h4>
-        <ol>
+        </ul>
+        <ul>
+            <h3>Soft Skills</h3>
             <li>Pensamento Crítico</li>
             <li>Trabalho em Equipe</li>
             <li>Resolução de Problemas Complexos</li>
             <li>Comunicação</li>
-        </ol>
+            <li>Autoconhecimento</li>
+        </ul>
     </div>
     <!--Gostos Pessoais-->
-    <div>
+    <div class="gostos-pessoais">
         <h3 id="gostos-pessoais">Gostos Pessoais</h3>
         <p>Em momentos de lazer e descontração essas são as seguintes áreas que busco:</p>
         <ul>
