@@ -1,0 +1,6 @@
+space-cadet: #2b2d42ff;
+cool-gray: #8d99aeff;
+antiflash-white: #edf2f4ff;
+marian-blue: #023e8aff;
+fire-engine-red: #d90429ff;
+hunter-green: #3a5a40ff;
