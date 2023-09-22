@@ -1,5 +1,31 @@
 * {
-    margin: 0;
-    padding: 0;
-    background-color: #edf2f4ff;
+  margin: 0;
+  padding: 0;
+  background-color: #edf2f4ff;
+  color: #2b2d42ff;
+  font-family: Roboto;
+}
+header {
+  top: 0;
+  left: 0;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+}
+header ul {
+  background-color: #023e8aff;
+}
+header ul li {
+  padding: 10px;
+  background-color: #023e8aff;
+  color: #edf2f4ff;
+  font-size: 30px;
+  display: inline-block;
+  list-style-type: none;
+}
+header ul li:hover {
+  color: #8d99aeff;
 }
