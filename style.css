@@ -5,7 +5,7 @@
   color: #2b2d42ff;
   font-family: Roboto;
 }
-header {
+#index {
   top: 0;
   left: 0;
   position: fixed;
@@ -15,17 +15,22 @@ header {
   text-align: center;
   font-weight: 900;
 }
-header ul {
+#index ul {
   background-color: #023e8aff;
+  padding: 10px;
 }
-header ul li {
+#index ul li {
   padding: 10px;
   background-color: #023e8aff;
-  color: #edf2f4ff;
-  font-size: 30px;
   display: inline-block;
   list-style-type: none;
 }
-header ul li:hover {
+#index ul a:hover {
   color: #8d99aeff;
+}
+#index a {
+  color: #edf2f4ff;
+  background-color: #023e8aff;
+  text-decoration: none;
+  font-size: 30px;
 }
