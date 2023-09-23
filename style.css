@@ -5,6 +5,9 @@
   color: #2b2d42ff;
   font-family: Roboto;
 }
+body {
+  margin-top: 72px;
+}
 #index {
   top: 0;
   left: 0;
@@ -33,4 +36,11 @@
   background-color: #023e8aff;
   text-decoration: none;
   font-size: 30px;
+}
+#home a {
+  font-style: italic;
+  text-decoration: none;
+}
+#home a:hover {
+  color: #d90429ff;
 }
