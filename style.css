@@ -1,12 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  color: #2b2d42ff;
+  color: #212529ff;
   font-family: Roboto;
 }
 body {
   margin-top: 72px;
-  background-color: #edf2f4ff;
+  background-color: #e9ecefff;
 }
 #index {
   top: 0;
@@ -29,10 +29,10 @@ body {
   list-style-type: none;
 }
 #index ul a:hover {
-  color: #8d99aeff;
+  color: #ced4daff;
 }
 #index a {
-  color: #edf2f4ff;
+  color: #e9ecefff;
   background-color: #023e8aff;
   text-decoration: none;
   font-size: 30px;
@@ -57,10 +57,10 @@ body {
   width: 30%;
   height: 200px;
   text-align: center;
-  border: 2px solid #8d99aeff;
+  border: 2px solid #ced4daff;
   border-radius: 20px;
   box-sizing: border-box;
-  background-color: #8d99aeff;
+  background-color: #ced4daff;
   padding: 0 10px 10px 10px;
 }
 #about li {
